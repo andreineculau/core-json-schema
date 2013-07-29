@@ -1,5 +1,5 @@
 {
-    "id": "http://schema.hyperrest.com/misc/ean_13_0.json",
+    "id": "http://schema.hyperrest.com/gs1/ean_13_0.json",
     "$schema": "http://json-schema.org/draft-04/schema#",
 
     "title": "EAN-13",
@@ -7,5 +7,6 @@
     "type": "string",
     "minLength": "13",
     "maxLength": "13",
-    "pattern": "/^[0-9]{13}$/"
+    "pattern": "/^[0-9]{13}$/",
+    "example": "3033710074365"
 }

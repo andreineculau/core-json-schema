@@ -7,5 +7,6 @@
     "type": "string",
     "minLength": "10",
     "maxLength": "10",
-    "pattern": "/^[0-9]{9}[0-9X]$/"
+    "pattern": "/^[0-9]{9}[0-9X]$/",
+    "example": "020530902X"
 }
